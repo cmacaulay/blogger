@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     resources :comments
   end
   resources :tags
+  resources :authors
   # Have to have the routes defined, you can't just define them once and delete
 
 end
